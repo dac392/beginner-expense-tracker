@@ -1,2 +1,2 @@
 # js-practice
-Just a way for me to get use to javascript, and use as a repository of cool things that I might be able to do with it
+This was a quick project that I threw together to see how I could use javascript and forms together. It's not anything special but it taught me a lot.

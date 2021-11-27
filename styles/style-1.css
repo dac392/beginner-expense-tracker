@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  /* text-align: center; */
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: rgb(148, 202, 148);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+form {
+  padding: 5px 50px;
+}
+h2 {
+  text-align: center;
+  color: rgb(31, 138, 31);
+}
+.input-title {
+  color: black;
+  font-size: larger;
+  /* display: inline-block; */
+  margin: 10px 0;
+}
+
+input {
+  width: 90%;
+  border-radius: 0.35em;
+  margin-left: 15px;
+  padding: 10px 5px;
+}
+
+.track-expense {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 1em;
+  background-color: rgb(148, 202, 148);
+  border: 2px solid black;
+  font-size: 1.25em;
+}
+
+/*
+    ==================
+    Tracking
+    ==================
+*/
+.expense-tracker {
+  margin: 40px 20px;
+}
+.tracking-table {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list {
+  display: inline-block;
+  /* border: 1px solid grey; */
+  background-color: rgb(187, 186, 186);
+  padding: 10px;
+  margin-right: 0px;
+  width: 33%;
+}
+.li-title {
+  background-color: white;
+  font-weight: bold;
+}
+
+.empty {
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  font-weight: normal;
+  width: 99.7%;
+  text-align: center;
+}
+
+.remove-expense {
+  margin: 20px 30px;
+  padding: 10px 20px;
+  border-radius: 1em;
+  border: 2px solid black;
+  background-color: rgb(253, 127, 127);
+  font-size: 1.25em;
+}

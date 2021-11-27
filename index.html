@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style-1.css">
+</head>
+<body>
+    <header>
+        <h1 class="page-header">Expense Tracker</h1>
+    </header>
+    <main>
+        <div class="add-expense">
+            <h2>Add new item:</h2>
+            <form action="index.html" method="get">
+                <p class="input-title">Name:</p>
+                <input type="text" name="item-name" id="new-item-name"><br>
+                <p class="input-title">Date:</p>
+                <input type="date" name="item-date" id="new-item-date"><br>
+                <p class="input-title">Amount:</p>
+                <input type="number" name="item-cost" id="new-item-cost" min="1"><br>
+                
+                <button class="track-expense" type="submit">Track Expense</button>
+            </form>
+        </div>
+        <div class="expense-tracker">
+            <ul class="tracking-table">
+                <li class="list li-title">Name</li>
+                <li class="list li-title">Date</li>
+                <li class="list li-title">Amount</li>
+                
+            </ul>
+            <button class="remove-expense" type="reset">Remove Last</button>
+        </div>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
